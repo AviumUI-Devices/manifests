@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="avium-devices-chiron"
+           fetch="https://github.com/AviumUI-Devices"
+           revision="avium-16.2" />
+
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="avium-devices-chiron" clone-depth="1" />
+  <project path="device/xiaomi/chiron" name="device_xiaomi_chiron" remote="avium-devices-chiron" clone-depth="1" />
+  <project path="device/xiaomi/msm8998-common" name="device_xiaomi_msm8998-common" remote="avium-devices-chiron" clone-depth="1" />
+  <project path="kernel/xiaomi/msm8998" name="kernel_xiaomi_msm8998" remote="avium-devices-chiron" clone-depth="1" />
+  <project path="vendor/xiaomi/chiron" name="vendor_xiaomi_chiron" remote="avium-devices-chiron" clone-depth="1" />
+  <project path="vendor/xiaomi/msm8998-common" name="vendor_xiaomi_msm8998-common" remote="avium-devices-chiron" clone-depth="1" />
+</manifest>
