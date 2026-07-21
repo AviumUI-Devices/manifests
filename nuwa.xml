@@ -15,6 +15,6 @@
   <project path="kernel/xiaomi/sm8550" name="kernel_xiaomi_sm8550" remote="avium-devices-nuwa" clone-depth="1" />
   <project path="kernel/xiaomi/sm8550-devicetrees" name="kernel_xiaomi_sm8550-devicetrees" remote="avium-devices-nuwa" clone-depth="1" />
   <project path="kernel/xiaomi/sm8550-modules" name="kernel_xiaomi_sm8550-modules" remote="avium-devices-nuwa" clone-depth="1" />
-  <project path="vendor/xiaomi/nuwa" name="vendor_xiaomi_nuwa" remote="TheMuppets" clone-depth="1" />
+  <project path="vendor/xiaomi/nuwa" name="proprietary_vendor_xiaomi_nuwa" remote="TheMuppets" clone-depth="1" />
   <project path="vendor/xiaomi/sm8550-common" name="vendor_xiaomi_sm8550-common" remote="avium-devices-nuwa" clone-depth="1" />=
 </manifest>
